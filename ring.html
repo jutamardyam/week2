@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Ring Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #f5f5f5;
+      font-family: 'Playfair Display', serif;
+    }
+    .navbar, footer {
+      background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+      border-bottom: 3px solid #d4af37;
+    }
+    .navbar a {
+      color: #d4af37 !important;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?diamond,ring') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      color: #d4af37;
+      font-size: 3rem;
+    }
+    .card {
+      background: #2e2e2e;
+      border: 1px solid #d4af37;
+      box-shadow: 0px 4px 10px rgba(212, 175, 55, 0.3);
+    }
+    .card-title {
+      color: #d4af37;
+      font-weight: bold;
+    }
+    .btn-gold {
+      background-color: #d4af37;
+      color: #1a1a1a;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid #d4af37;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">Yam Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Pet Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="toy.html">Toy Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="ring.html">Ring Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="food.html">Food Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="cafe.html">Yam Cafe</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+  <h1>Timeless Elegance & Luxury</h1>
+</header>
+
+<!-- Products Section -->
+<section class="container py-5">
+  <h2 class="text-center text-uppercase mb-4" style="color: #d4af37;">Our Exclusive Collection</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://www.jubileediamond.co.th/cdn/shop/files/R23434EW.jpg?v=1727799418" class="card-img-top" alt="Diamond Ring">
+        <div class="card-body text-center">
+          <h5 class="card-title">Luxury Ring</h5>
+          <p class="card-text">Crafted with pure elegance, a symbol of love and commitment.</p>
+          <button class="btn btn-gold">View Details</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://vonbargensjewelry.com/wp-content/uploads/2018/07/Rahaminov_FC2141_The_Golden_Majesty_Rahaminov_FC-2141_The_Golden_Majesty_fc-2141_three_qrtr_profile.jpg" class="card-img-top" alt="Gold Ring">
+        <div class="card-body text-center">
+          <h5 class="card-title">Golden Majesty</h5>
+          <p class="card-text">Pure gold band with a touch of royalty and sophistication.</p>
+          <button class="btn btn-gold">View Details</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://th.pandora.net/dw/image/v2/BJRN_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwa2d7f613/productimages/singlepackshot/168898C00_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5" class="card-img-top" alt="Wedding Ring">
+        <div class="card-body text-center">
+          <h5 class="card-title">Infinity Bond</h5>
+          <p class="card-text">Symbolizing endless love, the perfect ring for your special moment.</p>
+          <button class="btn btn-gold">View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Luxury Rings | Crafted with Elegance</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

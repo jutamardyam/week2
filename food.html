@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แยมอาหารตามสั่ง</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      background-color: #fff3e0;
+      font-family: 'Sriracha', cursive;
+    }
+    .navbar, footer {
+      background-color: #b71c1c;
+    }
+    .navbar a, .footer-text {
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?thai-food') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      color: #ffcc00;
+      font-size: 3rem;
+    }
+    .card {
+      background: #ffe0b2;
+      border: 1px solid #d84315;
+      box-shadow: 0px 4px 10px rgba(216, 67, 21, 0.3);
+    }
+    .card-title {
+      color: #d84315;
+      font-weight: bold;
+    }
+    .btn-gold {
+      background-color: #ffcc00;
+      color: #b71c1c;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">แยมอาหารตามสั่ง</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Pet Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="toy.html">Toy Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="ring.html">Ring Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="food.html">Food Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="cafe.html">Yam Cafe</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+  <h1>อร่อยทุกคำ! สั่งเลย 🍛</h1>
+</header>
+
+<!-- Services Section -->
+<section class="container py-5">
+  <h2 class="text-center text-uppercase mb-4" style="color: #d84315;">บริการของเรา</h2>
+  <p class="text-center">เรามีบริการอาหารไทยแท้ๆ อาหารตามสั่ง พร้อมบริการส่งถึงที่</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa4L4Rd8MLOlOmSncXz8W8GdUwTNuJtQeNqJ2Uxs9oooZsdiqOsqy.jpg" class="card-img-top" alt="ผัดไทย">
+        <div class="card-body text-center">
+          <h5 class="card-title">ผัดไทยกุ้งสด</h5>
+          <p class="card-text">เส้นเหนียวนุ่ม กุ้งตัวโต รสชาติเข้มข้น</p>
+          <button class="btn btn-gold">สั่งเลย</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://www.ajinomotofoodservicethailand.com/wp-content/uploads/2019/01/21-2.jpg" class="card-img-top" alt="แกงเขียวหวาน">
+        <div class="card-body text-center">
+          <h5 class="card-title">แกงเขียวหวานไก่</h5>
+          <p class="card-text">เครื่องแกงเข้มข้น หอมมันกะทิแท้ๆ</p>
+          <button class="btn btn-gold">สั่งเลย</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://patternpack.org/wp-content/uploads/2024/07/7-3.jpg" class="card-img-top" alt="กะเพรา">
+        <div class="card-body text-center">
+          <h5 class="card-title">กะเพราหมูกรอบ</h5>
+          <p class="card-text">หมูกรอบกรุบๆ ผัดใบกะเพราแท้ เผ็ดจัดจ้าน</p>
+          <button class="btn btn-gold">สั่งเลย</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p class="footer-text">&copy; 2025 ร้านอาหารตามสั่ง | ความอร่อยแบบไทยๆ</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
